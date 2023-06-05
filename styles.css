@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app{
+    font-family: 'Nunito', sans-serif;
+}
+
+.nav-icon{
+    border-radius: 50px;
+    box-shadow:  20px 20px 60px #f8e2e2,
+                 -20px -20px 60px #c9c7c7;
+}
+
+.glow-container{
+    -webkit-box-shadow:0px 0px 100px 34px rgba(255,255,255,0.86);
+-moz-box-shadow: 0px 0px 100px 34px rgba(255,255,255,0.86);
+box-shadow: 0px 0px 100px 34px rgba(255,255,255,0.86);
+}
+
