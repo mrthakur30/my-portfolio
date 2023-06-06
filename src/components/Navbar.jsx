@@ -31,14 +31,14 @@ function Navbar() {
           <li
             className="text-lg foc nav-icon font-semibold px-2 rounded-2xl border-2 hover:text-black  hover:bg-red-300  focus:text-black focus:bg-red-300 border-orange-500   transition  duration-200 "
              >
-            <Link to="/"
+            <Link to="my-portfolio/"
             >
               Home
             </Link>
           </li>
 
           <li>
-            <Link to="/skills"
+            <Link to="my-portfolio/skills"
               className="text-lg font-semibold px-2 rounded-2xl  border-2 hover:text-black border-orange-500  hover:bg-red-300  transition  duration-200  nav-icon"
             >
               Skills
@@ -46,14 +46,14 @@ function Navbar() {
           </li>
 
           <li>
-            <Link to="/projects"
+            <Link to="my-portfolio/projects"
               className="text-lg  font-semibold px-2 rounded-2xl border-2 hover:text-black border-orange-500  hover:bg-red-300  transition  duration-200  nav-icon"
             >
               Projects
             </Link>
           </li>
           <li>
-          <Link to="/about"
+          <Link to="my-portfolio/about"
               className="text-lg t font-semibold px-2 rounded-2xl  border-2 hover:text-black border-orange-500  hover:bg-red-300  transition  duration-200 nav-icon"
             >
               About
