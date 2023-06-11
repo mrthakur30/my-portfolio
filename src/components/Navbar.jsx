@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 function Navbar() {
   return (
-    <div className=" w-full fixed py-2 z-10 flex bg-slate-100  ">
+    <div className=" w-full fixed py-2 bg-opacity-60 z-10 flex bg-slate-100  ">
       <div className="flex mx-3 my-auto  space-x-2">
       <Link to="/"
       className="inline-flex hover:cursor-pointer space-x-2"
