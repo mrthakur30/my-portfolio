@@ -7,7 +7,7 @@ function Projects() {
       title : "Spotify Stats" ,
       deployLink : "https://dashing-bublanina-abf290.netlify.app/",
       repoLink : "https://github.com/mrthakur30/spotify-stats-api-react" ,
-      image : "/1.png" ,
+      image : "1.png" ,
       techStack : ["React" ,"Tailwind" , "Redux Toolkit","Spotify API" ] ,
       description : "Made using Spotify API, user can see his top 15 played tracks and artists "
     },
@@ -15,7 +15,7 @@ function Projects() {
       title : "Youtube Clone" ,
       deployLink : "https://unrivaled-paletas-0ca3dd.netlify.app/",
       repoLink : "https://github.com/mrthakur30/youtube-clone-assignment" ,
-      image : "/2.png" ,
+      image : "/public/2.png" ,
       techStack : ["React" ,"Tailwind" , "Vite"] ,
       description : "A video player displaying pages using paginated API and can play videos using HTML5 video"
     },
@@ -23,7 +23,7 @@ function Projects() {
       title : "Notes App" ,
       deployLink : "https://thriving-youtiao-c254b0.netlify.app/",
       repoLink : "https://github.com/mrthakur30/notes-react-app-redux-tailwind" ,
-      image : "/4.png" ,
+      image : "4.png" ,
       techStack : ["React" ,"Tailwind" , "Redux Toolkit"] ,
       description : "Google Keep Clone while learning React"
     },
