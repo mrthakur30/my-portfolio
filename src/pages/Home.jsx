@@ -44,7 +44,7 @@ function App() {
              <span className="flex bg-white border-1 rounded-md p-2 text-black font-fredoka font-light border-black justify-center items-center"><img className="h-6 rounded-full" src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png"/><p>Leetcode<p className="text-bold">-166<p/>
              
              
-             </p></span>
+</span>
           </div>
         </div>
         <motion.img
