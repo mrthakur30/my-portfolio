@@ -15,7 +15,7 @@ function Projects() {
       title : "Youtube Clone" ,
       deployLink : "https://unrivaled-paletas-0ca3dd.netlify.app/",
       repoLink : "https://github.com/mrthakur30/youtube-clone-assignment" ,
-      image : "/public/2.png" ,
+      image : "2.png" ,
       techStack : ["React" ,"Tailwind" , "Vite"] ,
       description : "A video player displaying pages using paginated API and can play videos using HTML5 video"
     },
@@ -31,7 +31,7 @@ function Projects() {
       title : "Meme Editor" ,
       deployLink : "https://neon-hamster-077e99.netlify.app/",
       repoLink : "https://github.com/mrthakur30/meme-gen-react" ,
-      image : "/3.png",
+      image : "3.png",
       techStack : ["React" ,"Tailwind" , "API"] ,
       description : "Put text random meme image fetched from API"
     },
@@ -39,7 +39,7 @@ function Projects() {
       title : "Cart App" ,
       deployLink : "https://snazzy-manatee-be4304.netlify.app/",
       repoLink : "https://github.com/mrthakur30/redux-toolkit-cart" ,
-      image : "/5.png",
+      image : "5.png",
       techStack : ["React" ,"Redux"] ,
       description : "Made using Spotify API, user can see his top 15 played tracks and artists "
     },
