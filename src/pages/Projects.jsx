@@ -13,7 +13,7 @@ function Projects() {
     },
     {
       title : "Youtube Clone" ,
-      deployLink : "https://unrivaled-paletas-0ca3dd.netlify.app/",
+      deployLink : "https://youtu.be/VSYh1GM-6y8/",
       repoLink : "https://github.com/mrthakur30/youtube-clone-assignment" ,
       image : "2.png" ,
       techStack : ["React" ,"Tailwind" , "Vite"] ,
