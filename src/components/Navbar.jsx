@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom"
+import Dropdown from "./Dropdown"
 
 function Navbar() {
   return (
-    <div className=" w-full fixed py-2 bg-opacity-60 z-10 flex bg-slate-100  ">
+    <div className=" w-full fixed py-2 z-10 flex bg-slate-100  ">
       <div className="flex mx-3 my-auto  space-x-2">
       <Link to="/"
       className="inline-flex hover:cursor-pointer space-x-2"
@@ -24,14 +25,18 @@ function Navbar() {
         <span className=" text-xl font-bold">Mukul</span>
       </Link>
     </div>
+     
     <div className="mx-auto flex max-w-7xl items-center  font-space  font- justify-stretch  px-4 py-2 sm:px-6 lg:px-8">
-    
+    <Dropdown/>
       <div className="md:block hidden">
-        <ul className="inline-flex text-orange-500  space-x-36">
+        <ul className="inline-flex text-gray-700  space-x-36">
           <li
-            className="text-lg foc nav-icon font-semibold px-2 rounded-2xl border-2 hover:text-black  hover:bg-red-300  focus:text-black focus:bg-red-300 border-orange-500   transition  duration-200 "
+            className="text-lg foc nav-icon font-semibold px-2 rounded-2xl border-2 hover:text-black    focus:text-black focus:bg-red-300 border-orange-100   transition  duration-200 "
              >
-            <Link to="my-portfolio/"
+            <Link to="/my-portfolio"
+             autofocus
+              className="text-lg font-semibold px-2 rounded-2xl  border-2 hover:text-black border-orange-100 focus:ring-pink-400  focus:ring-4 focus:outline-none   transition  duration-200  nav-icon"
+
             >
               Home
             </Link>
@@ -39,7 +44,7 @@ function Navbar() {
 
           <li>
             <Link to="my-portfolio/skills"
-              className="text-lg font-semibold px-2 rounded-2xl  border-2 hover:text-black border-orange-500  hover:bg-red-300  transition  duration-200  nav-icon"
+              className="text-lg font-semibold px-2 rounded-2xl  border-2 hover:text-black border-orange-100 focus:ring-green-400  focus:ring-4 focus:outline-none   transition  duration-200  nav-icon"
             >
               Skills
             </Link>
@@ -47,14 +52,14 @@ function Navbar() {
 
           <li>
             <Link to="my-portfolio/projects"
-              className="text-lg  font-semibold px-2 rounded-2xl border-2 hover:text-black border-orange-500  hover:bg-red-300  transition  duration-200  nav-icon"
+              className="text-lg  font-semibold px-2 rounded-2xl border-2 hover:text-black border-orange-100  focus:ring-blue-400  focus:ring-4 focus:outline-none  transition  duration-200  nav-icon"
             >
               Projects
             </Link>
           </li>
           <li>
           <Link to="my-portfolio/about"
-              className="text-lg t font-semibold px-2 rounded-2xl  border-2 hover:text-black border-orange-500  hover:bg-red-300  transition  duration-200 nav-icon"
+              className="text-lg t font-semibold px-2 rounded-2xl  border-2 hover:text-black border-orange-100   focus:ring-purple-400  focus:ring-4 focus:outline-none  transition  duration-200 nav-icon"
             >
               About
           </Link>

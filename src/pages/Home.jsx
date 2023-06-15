@@ -13,6 +13,7 @@ function App() {
         damping: 50,
       }}
     >
+     
       <div className="  bg-white bg-opacity-20  p-4 rounded-md flex-col md:w-1/2 w-3/4   text-white flex transition duration-200 justify-center ">
         <motion.p
           initial={{ x: 700, opacity: 0 }}

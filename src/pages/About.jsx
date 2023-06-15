@@ -43,14 +43,14 @@ function About() {
         stiffness: 160,
         damping: 50,
       }}
-    className="min-h-full flex  flex-col items-center justify-center bg-purple-400"
+    className="min-h-full flex flex-col pt-10  pb-3 items-center justify-center bg-purple-400"
     >  
     <div 
-    className="flex font-space p-4 border-2  border-green-200 bg-white bg-opacity-60 rounded-md flex-col justify-center items-center"
+    className="flex font-space p-4 border-2  w-4/5  md:w-3/5 border-green-200 bg-white bg-opacity-60 rounded-md flex-col justify-center items-center"
     >
     <p className="text-3xl font-extrabold pb-11">Socials</p>
       <div 
-      className=" grid md:grid-cols-4 grid-cols-2 p-2 gap-5 md:gap-y-24  md:gap-x-12"
+      className=" grid md:grid-cols-4 grid-cols-1 p-2 gap-7 md:gap-y-24  md:gap-x-12"
       >
         {socials.map((item, index)=>{
           return <SocialCard key={index} name = {item.name} imgURL={item.imgURL} link={item.link} />

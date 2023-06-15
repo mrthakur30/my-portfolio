@@ -13,10 +13,10 @@ function App() {
         <Navbar/>
           <Routes>
             <Route index element={<Home />} />
-            <Route path="my-portfolio/" element={<Home /> } />
-            <Route path="my-portfolio/skills" element={<Skills /> }  />
-            <Route path="my-portfolio/projects" element={<Projects /> } /> 
-            <Route path="my-portfolio/about" element={<About /> } />
+            <Route path="/my-portfolio" element={<Home /> } />
+            <Route path="/my-portfolio/skills" element={<Skills /> }  />
+            <Route path="/my-portfolio/projects" element={<Projects /> } /> 
+            <Route path="/my-portfolio/about" element={<About /> } />
           </Routes>
         </BrowserRouter>
     </div>

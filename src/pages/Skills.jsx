@@ -69,7 +69,7 @@ function Skills() {
   return (
 
     <motion.main
-    className=" min-h-full flex  flex-col justify-center items-center  bg-green-300"
+    className=" min-h-full flex pt-24 p-4 flex-col justify-center items-center  bg-green-300"
     initial={{ x: 200, opacity: 0 }}
     animate={{ x: 0, opacity: 1 }}
     exit={{ x: 200, opacity: 0 }}
@@ -80,9 +80,9 @@ function Skills() {
     }}
 
     >
-      <div className=" flex font-space p-4 border-2  border-green-200 bg-white bg-opacity-60 rounded-md flex-col justify-center items-center  ">
+      <div className=" flex font-space p-4 md:w-auto w-4/5 border-2  border-green-200 bg-white bg-opacity-60 rounded-md flex-col justify-center items-center  ">
         <p className=" text-3xl font-extrabold pb-11">My Skills</p>
-          <div className="grid md:grid-cols-5 grid-cols-2 p-2 gap-5 md:gap-y-24  md:gap-x-12">
+          <div className="grid md:grid-cols-5 grid-cols-1 p-2 gap-5 md:gap-y-24  md:gap-x-12">
               {data.map((item , index)=>{
                 return <SkillCard key={index} image={item.image} index={index} link={item.link} />
               })}
