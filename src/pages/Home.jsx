@@ -3,7 +3,7 @@ import mukul from "../assets/mukul.png";
 function App() {
   return (
     <motion.main
-      className="bg-red-400 flex flex-col-reverse mb-12 md:flex md:flex-row min-h-full gap-20  justify-center items-center "
+      className="bg-red-400 flex flex-col-reverse pb-4 mb-12 md:flex md:flex-row min-h-full gap-20  justify-center items-center "
       initial={{ y: 200, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       exit={{ y: 200, opacity: 0 }}
