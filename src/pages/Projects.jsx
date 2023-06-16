@@ -49,10 +49,9 @@ function Projects() {
 
   return (
     <motion.main
-      className="py-28 min-h-full flex px-2  flex-col justify-center items-center  bg-blue-400"
-      initial={{ x: -200, opacity: 0 }}
-      animate={{ x: 0, opacity: 1 }}
-      exit={{ x: -200, opacity: 0 }}
+    initial={{ y: -200, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      exit={{ y: -200, opacity: 0 }}
       transition={{
         type: "spring",
         stiffness: 160,

@@ -69,15 +69,14 @@ function Skills() {
   return (
 
     <motion.main
-    className=" min-h-full flex pt-24 p-4 flex-col justify-center items-center  bg-green-300"
-    initial={{ x: 200, opacity: 0 }}
-    animate={{ x: 0, opacity: 1 }}
-    exit={{ x: 200, opacity: 0 }}
-    transition={{
-      type: "spring",
-      stiffness: 160,
-      damping: 50,
-    }}
+    initial={{ y: -200, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      exit={{ y: -200, opacity: 0 }}
+      transition={{
+        type: "spring",
+        stiffness: 160,
+        damping: 50,
+      }}
 
     >
       <div className=" flex font-space p-4 md:w-auto w-4/5 border-2  border-green-200 bg-white bg-opacity-60 rounded-md flex-col justify-center items-center  ">

@@ -1,7 +1,6 @@
 /* eslint-disable react/prop-types */
 
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
 function SocialCard({ name, link, imgURL }) {
   return (
     <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}>
