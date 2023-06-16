@@ -69,6 +69,7 @@ function Skills() {
   return (
 
     <motion.main
+    className=" min-h-full flex pt-24 p-4 flex-col justify-center items-center  bg-green-300"
     initial={{ y: -200, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       exit={{ y: -200, opacity: 0 }}

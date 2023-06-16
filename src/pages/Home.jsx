@@ -3,7 +3,7 @@ import mukul from "../assets/mukul.png";
 function App() {
   return (
     <motion.main
-      className="bg-red-400 flex flex-col-reverse pb-4 mb-12 md:flex md:flex-row min-h-full gap-20  justify-center items-center "
+      className="bg-red-400 flex flex-col-reverse pb-4 mb-10 md:flex md:flex-row min-h-full gap-8 md:gap-20  justify-center items-center "
       initial={{ y: 200, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       exit={{ y: 200, opacity: 0 }}
@@ -42,7 +42,7 @@ function App() {
           Frontend Developer
         </motion.p>
 
-        <div className=" rounded-sm py-4 tracking-wider flex-col items-center justify-center font-fredoka  text-md mt-6 text-gray-200 ">
+        <div className=" rounded-sm py-4 tracking-wider flex-col items-center justify-center font-fredoka  text-md  text-gray-200 ">
           <p>
             Passionate about development, learning new skills on weekends. I am
             from Himachal currently in 2nd year pursuing B.Tech from NIT
@@ -50,7 +50,7 @@ function App() {
           </p>
         </div>
 
-        <div className="md:flex-row flex-col flex gap-6  mt-10">
+        <div className="md:flex-row flex-col flex gap-6   mt-10">
           
           <a
             rel="noreferrer"
@@ -86,7 +86,7 @@ function App() {
       <motion.img
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.8 }}
-        className="glow-container z-10 hover:shadow-2xl hover:shadow-red-400 md:mt-0  mt-12 transition-shadow duration-200  inline-block  h-48  md:h-72 rounded-full"
+        className="glow-container z-10 hover:shadow-2xl hover:shadow-red-400 md:mt-0  mt-14 transition-shadow duration-200  inline-block  h-48  md:h-72 rounded-full"
         src={mukul}
         alt="Mukul Thakur"
       />

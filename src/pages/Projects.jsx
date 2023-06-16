@@ -49,7 +49,8 @@ function Projects() {
 
   return (
     <motion.main
-    initial={{ y: -200, opacity: 0 }}
+      className="py-28 min-h-full flex px-4  flex-col justify-center items-center  bg-blue-400"
+      initial={{ y: -200, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       exit={{ y: -200, opacity: 0 }}
       transition={{
@@ -59,9 +60,9 @@ function Projects() {
       }}
       >
 
-    <div className=" flex font-space bg-white pt-8  pb-14 rounded-md bg-opacity-50 flex-col justify-center items-center  ">
+    <div className=" flex font-space bg-white pt-8 px-4  pb-14 rounded-md bg-opacity-50 flex-col justify-center items-center  ">
         <p className=" text-3xl font-extrabold pb-11">Projects</p>
-          <div className=" flex flex-col justify-center items-center  mx-auto    p-2 gap-5 md:gap-y-16  md:gap-x-14">
+          <div className=" flex flex-col justify-center items-center  mx-auto    p-2 gap-10 md:gap-y-16  md:gap-x-14">
 
            {projects.map((item,index)=> 
               <ProjectCard 

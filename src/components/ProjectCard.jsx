@@ -21,7 +21,7 @@ function ProjectCard({
     }}
     className="border-2 flex md:flex-row flex-col  hover:bg-blue-100 hover:bg-opacity-50 duration-200  md:w-9/12 p-3  border-green-200 bg-white bg-opacity-60 rounded-md relative">
       <img
-       className="h-80 rounded-md"
+       className="h-80 object-cover w-auto rounded-md"
        src={image}
        />
       <div className="p-1 justify-between flex md:flex-col ">

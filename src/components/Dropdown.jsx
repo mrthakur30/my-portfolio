@@ -26,7 +26,7 @@ export default function Dropdown() {
     },
   ];
   return (
-    <div className="absolute md:hidden right-2  top-1 ">
+    <div className="absolute z-40 md:hidden right-2  top-1 ">
       <button
         onClick={() => setOpen(!open)}
         id="dropdownDefaultButton"
