@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 function ProjectCard({
   title,
   deployLink,
@@ -20,21 +21,22 @@ function ProjectCard({
       bounce:300
     }}
     className="border-2 flex md:flex-row flex-col  hover:bg-blue-100 hover:bg-opacity-50 duration-200  md:w-9/12 p-3  border-green-200 bg-white bg-opacity-60 rounded-md relative">
+     
       <img
        className="h-80 object-cover w-auto rounded-md"
        src={image}
        />
       <div className="p-1 justify-between flex md:flex-col ">
-        <span className="text-xl px-2 text-slate-800 font-light">{title}</span>
+        <a rel="noreferrer" target="_blank" href={deployLink} className="text-xl hover:text-blue-800  hover:underline  hover:underline-offset-2 px-2 text-slate-800 font-light">{title}</a>
         <div className="flex md:flex-row top-4 right-5 justify-center items-center gap-3">
-          <span className="hover:bg-white p-0.5 transition rounded duration-200 ">
+          <span className="hover:bg-blue-100 p-0.5 transition rounded duration-200 ">
             <a rel="noreferrer" target="_blank" href={deployLink}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
-                stroke="black"
+                stroke="blue"
                 className="w-6 h-6"
               >
                 <path

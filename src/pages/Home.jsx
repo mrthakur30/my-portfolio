@@ -86,7 +86,7 @@ function App() {
       <motion.img
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.8 }}
-        className="glow-container z-10 hover:shadow-2xl hover:shadow-red-400 md:mt-0  mt-14 transition-shadow duration-200  inline-block  h-48  md:h-72 rounded-full"
+        className="glow-container hover:shadow-2xl hover:shadow-red-400 md:mt-0  mt-14 transition-shadow duration-200  inline-block  h-48  md:h-72 rounded-full"
         src={mukul}
         alt="Mukul Thakur"
       />

@@ -4,6 +4,14 @@ function Projects() {
 
   const projects = [
     {
+      title : "Reddit Clone - Next.js" ,
+      deployLink : "https://snazzy-manatee-be4304.netlify.app/",
+      repoLink : "https://reddit-clone-next-js-fullstack.vercel.app/sign-up" ,
+      image : "6.png",
+      techStack : ["Next.js 13" ,"Prisma", "Typescript", "Tailwind"] ,
+      description : "Its a reddit clone where can create and join communities and post what they want"
+    },
+    {
       title : "Spotify Stats" ,
       deployLink : "https://dashing-bublanina-abf290.netlify.app/",
       repoLink : "https://github.com/mrthakur30/spotify-stats-api-react" ,
@@ -43,6 +51,7 @@ function Projects() {
       techStack : ["React" ,"Redux"] ,
       description : "Made using Spotify API, user can see his top 15 played tracks and artists "
     },
+
   ];
 
  
