@@ -5,15 +5,15 @@ function Projects() {
   const projects = [
     {
       title : "Reddit Clone - Next.js" ,
-      deployLink : "https://snazzy-manatee-be4304.netlify.app/",
-      repoLink : "https://reddit-clone-next-js-fullstack.vercel.app/sign-up" ,
+      deployLink : "https://reddit-clone-next-js-fullstack.vercel.app/sign-up",
+      repoLink : "https://github.com/mrthakur30/Reddit-Clone-Next.js-Fullstack" ,
       image : "6.png",
       techStack : ["Next.js 13" ,"Prisma", "Typescript", "Tailwind"] ,
       description : "Its a reddit clone where can create and join communities and post what they want"
     },
     {
       title : "Spotify Stats" ,
-      deployLink : "https://dashing-bublanina-abf290.netlify.app/",
+      deployLink : "https://youtu.be/VSYh1GM-6y8/",
       repoLink : "https://github.com/mrthakur30/spotify-stats-api-react" ,
       image : "1.png" ,
       techStack : ["React" ,"Tailwind" , "Redux Toolkit","Spotify API" ] ,
@@ -21,7 +21,7 @@ function Projects() {
     },
     {
       title : "Youtube Clone" ,
-      deployLink : "https://youtu.be/VSYh1GM-6y8/",
+      deployLink : "https://unrivaled-paletas-0ca3dd.netlify.app/",
       repoLink : "https://github.com/mrthakur30/youtube-clone-assignment" ,
       image : "2.png" ,
       techStack : ["React" ,"Tailwind" , "Vite"] ,

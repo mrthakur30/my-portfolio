@@ -27,7 +27,7 @@ function ProjectCard({
        src={image}
        />
       <div className="p-1 justify-between flex md:flex-col ">
-        <a rel="noreferrer" target="_blank" href={deployLink} className="text-xl hover:text-blue-800  hover:underline  hover:underline-offset-2 px-2 text-slate-800 font-light">{title}</a>
+        <a rel="noreferrer" target="_blank" href={deployLink} className="text-xl hover:text-blue-500  hover:underline  hover:underline-offset-2 px-2 text-slate-800 font-light">{title}</a>
         <div className="flex md:flex-row top-4 right-5 justify-center items-center gap-3">
           <span className="hover:bg-blue-100 p-0.5 transition rounded duration-200 ">
             <a rel="noreferrer" target="_blank" href={deployLink}>
