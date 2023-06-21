@@ -3,7 +3,7 @@ import mukul from "../assets/mukul.png";
 function App() {
   return (
     <motion.main
-      className="bg-red-400 flex flex-col-reverse pb-4 mb-10 md:flex md:flex-row min-h-full gap-8 md:gap-20  justify-center items-center "
+      className="bg-red-400   backdrop-blur-3xl flex flex-col-reverse pb-4 mb-10 md:flex md:flex-row min-h-full gap-8 md:gap-20  justify-center items-center "
       initial={{ y: 200, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       exit={{ y: 200, opacity: 0 }}
@@ -14,7 +14,7 @@ function App() {
       }}
     >
      
-      <div className="  bg-white bg-opacity-20  p-4 rounded-md flex-col md:w-1/2 w-3/4   text-white flex transition duration-200 justify-center ">
+      <div className=" backdrop-blur-3xl bg-black bg-opacity-5  p-4 rounded-md flex-col md:w-1/2 w-3/4   text-white flex transition duration-200 justify-center ">
         <motion.p
           initial={{ x: 700, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
