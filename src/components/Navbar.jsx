@@ -33,7 +33,7 @@ function Navbar() {
           <li
             className="text-lg foc nav-icon font-semibold px-2 rounded-2xl border-2 hover:text-black    focus:text-black focus:bg-red-300 border-orange-100   transition  duration-200 "
              >
-            <Link to="/my-portfolio"
+            <Link to="/"
              autofocus
               className="text-lg font-semibold px-2 rounded-2xl  border-2 hover:text-black border-orange-100 focus:ring-pink-400  focus:ring-4 focus:outline-none   transition  duration-200  nav-icon"
 
@@ -43,7 +43,7 @@ function Navbar() {
           </li>
 
           <li>
-            <Link to="my-portfolio/skills"
+            <Link to="/skills"
               className="text-lg font-semibold px-2 rounded-2xl  border-2 hover:text-black border-orange-100 focus:ring-green-400  focus:ring-4 focus:outline-none   transition  duration-200  nav-icon"
             >
               Skills
@@ -51,14 +51,14 @@ function Navbar() {
           </li>
 
           <li>
-            <Link to="my-portfolio/projects"
+            <Link to="/projects"
               className="text-lg  font-semibold px-2 rounded-2xl border-2 hover:text-black border-orange-100  focus:ring-blue-400  focus:ring-4 focus:outline-none  transition  duration-200  nav-icon"
             >
               Projects
             </Link>
           </li>
           <li>
-          <Link to="my-portfolio/about"
+          <Link to="/about"
               className="text-lg t font-semibold px-2 rounded-2xl  border-2 hover:text-black border-orange-100   focus:ring-purple-400  focus:ring-4 focus:outline-none  transition  duration-200 nav-icon"
             >
               About
