@@ -9,19 +9,19 @@ export default function Dropdown() {
   }
   const links = [
     {
-      link: "/",
+      link: "/my-portfolio",
       linkTag: "Home",
     },
     {
-      link: "/skills",
+      link: "my-portfolio/skills",
       linkTag: "Skills",
     },
     {
-      link: "/projects",
+      link: "my-portfolio/projects",
       linkTag: "Projects",
     },
     {
-      link: "/about",
+      link: "my-portfolio/about",
       linkTag: "About",
     },
   ];

@@ -33,7 +33,7 @@ function Projects() {
       repoLink : "https://github.com/mrthakur30/mnc-hiring-site" ,
       image : "5.png",
       techStack : ["HTML" ,"CSS", "Javascript", "Firebase"] ,
-      description : "Its a reddit clone where can create and join communities and post what they want"
+      description : "User can hire candidates based on role and location and save them in list"
     },
     {
       title : "Notes App" ,
