@@ -4,12 +4,29 @@ function Projects() {
 
   const projects = [
     {
-      title : "Reddit Clone - Next.js" ,
+      title : "WebRTC Video Call App" ,
       deployLink : "https://reddit-clone-next-js-fullstack.vercel.app/sign-up",
       repoLink : "https://github.com/mrthakur30/Reddit-Clone-Next.js-Fullstack" ,
+      image : "7.png",
+      techStack : ["webRTC" , "Socket.io", "Next.js", "Typescript", "Tailwind"] ,
+      description : "Used webRTC to implement video calling and socket.io as signaling server"
+    },
+    {
+      title : "Reddit Clone - Next.js" ,
+      deployLink : "https://web-rtc-nextjs-two.vercel.app/",
+      repoLink : "https://github.com/mrthakur30/webRTC-nextjs" ,
       image : "6.png",
       techStack : ["Next.js 13" ,"Prisma", "Typescript", "Tailwind"] ,
       description : "Its a reddit clone where can create and join communities and post what they want"
+    },
+    
+    {
+      title : "Email Waitlist Site" ,
+      deployLink : "https://frontend-code-doctor.vercel.app/",
+      repoLink : "https://github.com/mrthakur30/frontend-code-doctor" ,
+      image : "8.png",
+      techStack : ["Next.js", "Express", "Tailwind", "Framer Motion"] ,
+      description : "A webpage for getting user email data for wait list and admin dashboard"
     },
     {
       title : "Spotify Stats" ,
@@ -42,14 +59,6 @@ function Projects() {
       image : "4.png" ,
       techStack : ["React" ,"Tailwind" , "Redux Toolkit"] ,
       description : "Google Keep Clone while learning React"
-    },
-    {
-      title : "Meme Editor" ,
-      deployLink : "https://neon-hamster-077e99.netlify.app/",
-      repoLink : "https://github.com/mrthakur30/meme-gen-react" ,
-      image : "3.png",
-      techStack : ["React" ,"Tailwind" , "API"] ,
-      description : "Put text random meme image fetched from API"
     },
 
   ];
